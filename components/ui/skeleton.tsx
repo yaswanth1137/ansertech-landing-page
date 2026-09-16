@@ -90,6 +90,8 @@ function SkeletonButton({
   return <Skeleton className={cn(sizeClasses[size], className)} />;
 }
 
+const SkeletonCard = CardSkeleton;
+
 function CardSkeleton({ className }: { className?: string }) {
   return (
     <div className={cn("rounded-2xl border border-border/60 bg-card/40 p-6 space-y-4 shadow-xs backdrop-blur-xs animate-skeleton-shimmer", className)}>
