@@ -1,0 +1,16 @@
+{
+    "name": "AnserTech - AI Receptionist",
+    "short_name": "AnserTech",
+    "description": "Never miss a booking again. Let AI answer calls, book tables, and handle customers 24/7.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0B0B0B",
+    "theme_color": "#F5CA3C",
+    "icons": [
+        {
+            "src": "/brand/logo-abstract.svg",
+            "sizes": "any",
+            "type": "image/svg+xml"
+        }
+    ]
+}
